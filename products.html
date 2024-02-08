@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - VyaaparHub</title>
+  <link rel="icon" href="images/logo-h.png" type="image/png">
+  <link rel="stylesheet" href="products.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    
+  <header>
+    <div class="nav">
+      <div>
+        <ul id="navbar">
+            <li><input type="text" placeholder="Search 'Potato'" class="search"></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="cart.html">Products</a></li>                                                                                                 
+            <li><a href="about.html">About</a></li>
+            <li><a href="#scroll">Contact</a></li>
+            <li><div class="dropdown">
+              <button class="dropbtn"><i class='bx bxs-user'></i></button>
+              <div class="dropdown-content">
+                  <h4>User Name</h4>
+                  <h5>Retail Store Name</h5>
+              </div>
+              </div></li>
+            <li><a href="logout.php"><i class='bx bx-power-off'></i></i></a></li>
+        </ul>
+    </div>
+        <div class="box">
+            <div class="cart-count">0</div>
+            <ion-icon name="cart-outline" id="cart-icon"></ion-icon>
+        </div>
+
+        <div class="cart">
+            <div class="cart-title">Cart Items</div>
+            <div class="cart-content"></div>
+        
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+
+        <button class="btn-buy">Place Order</button>
+
+        <ion-icon name="close" id="cart-close"></ion-icon>
+        </div>
+    </div>
+  </header>
+<br>
+<br>
+  <h4 id="grocery">Grocery</h4>
+  <div class="container">
+    <div class="shop-content">
+      <div class="food-box">
+        <div class="pic" id="grocery">
+          <img src="images/grocery1.png" class="food-img">
+        </div>
+        <h2 class="food-title">Potato</h2>
+        <span class="food-price">Rs.40/kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/grocery2.png" class="food-img"></div>
+        <h2 class="food-title">Onion</h2>
+        <span class="food-price">Rs.75/kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/grocery3.png" class="food-img"></div>
+        <h2 class="food-title">Tomato</h2>
+        <span class="food-price">Rs.25/kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/grocery4.png" class="food-img"></div>
+        <h2 class="food-title">Atta</h2>
+        <span class="food-price">Rs.25/kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <h4>Edible Oils and Ghee</h4>
+    <div class="container">
+        <div class="shop-content">
+      <div class="food-box" id="oils">
+        <div class="pic"><img src="images/oil1.png" class="food-img"></div>
+        <h2 class="food-title">Sunflower Oil</h2>
+        <span class="food-price">Rs.115/L</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/oil2.png" class="food-img"></div>
+        <h2 class="food-title">Groundnut oil</h2>
+        <span class="food-price">Rs.400/L</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/oil3.png" class="food-img"></div>
+        <h2 class="food-title">Coconut Oil</h2>
+        <span class="food-price">Rs.140/L</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/oil4.png" class="food-img"></div>
+        <h2 class="food-title">Mustard Oil</h2>
+        <span class="food-price">Rs.230/L</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+        </div>
+    </div>
+    <hr>
+    <h4>Diary and Bakery</h4>
+    <div class="container">
+        <div class="shop-content">
+      <div class="food-box" id="dairy">
+        <div class="pic"><img src="images/dairy1.png" class="food-img"></div>
+        <h2 class="food-title">Milk</h2>
+        <span class="food-price">Rs.44/L</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/dairy2.png" class="food-img"></div>
+        <h2 class="food-title">Panner</h2>
+        <span class="food-price">Rs.500/kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/dairy3.png" class="food-img"></div>
+        <h2 class="food-title">Bread</h2>
+        <span class="food-price">Rs.60/pound</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/dairy4.png" class="food-img"></div>
+        <h2 class="food-title">Chips</h2>
+        <span class="food-price">Rs.20/peice</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      </div>
+      </div>
+      <hr>
+      <h4>Health and Hygiene</h4>
+      <div class="container">
+        <div class="shop-content">
+      <div class="food-box" id="hygiene">
+        <div class="pic"><img src="images/hygiene1.png" class="food-img"></div>
+        <h2 class="food-title">Mouth Freshner</h2>
+        <span class="food-price">Rs.170/250ml</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/hygiene2.png" class="food-img"></div>
+        <h2 class="food-title">Sanitary Pads</h2>
+        <span class="food-price">Rs.200/pack</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/hygiene3.png" class="food-img"></div>
+        <h2 class="food-title">Soaps</h2>
+        <span class="food-price">Rs.65/peice</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/hygiene4.png" class="food-img"></div>
+        <h2 class="food-title">Shampoos</h2>
+        <span class="food-price">Rs.300/250ml</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+        </div>
+      </div>
+      <hr>
+      <h4>Cattle Feeds</h4>
+      <div class="container">
+        <div class="shop-content">
+      <div class="food-box" id="cattle">
+        <div class="pic"><img src="images/cattle4.png" class="food-img"></div>
+        <h2 class="food-title">Cow Feed</h2>
+        <span class="food-price">Rs.300/10kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/cattle2.png" class="food-img"></div>
+        <h2 class="food-title">Pig Feed</h2>
+        <span class="food-price">Rs.200/5kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/cattle1.png" class="food-img"></div>
+        <h2 class="food-title">Cow Feed</h2>
+        <span class="food-price">Rs.400/10kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="images/cattle3.png" class="food-img"></div>
+        <h2 class="food-title">Cow Feed</h2>
+        <span class="food-price">Rs.250/10kg</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <footer class="section-p1" id="scroll">
+    <div class="col">
+        <img class="logo-f" src="images/logo-f.png" alt="VyaaparHub">
+        <h3>Contact</h3>
+        <p><strong>Address : </strong>Global Academy of Technology, Ideal Homes, RR Nagar, Bengaluru-560085.</p>
+        <p><strong>Contact : </strong>+91 9035499812, +91 7795091510</p>
+        <p><strong>Timings : </strong>10:00 - 18:00(Mon - Sat)</p>
+    </div>
+    <div class="col">
+        <h3>Creators - Github</h3>
+        <a href="github.com/keerthankacharya">github.com/keerthankacharya</a>
+        <a href="github.com/preethamgshiva">github.com/preethamgshiva</a>
+        <a href="github.com/vikasjgowda">github.com/vikasjgowda</a>
+        <a href="github.com/rakeshjayana">github.com/rakeshjayana</a>
+    </div>
+    <div class="credits">
+        <p>© 2024 Team Void</p>
+        <p>Handcrafted with <i class='bx bxs-heart'></i></p>
+        <p>Made in INDIA</p>
+    </div>
+</footer>
+  <script src="products.js"></script>
+</body>
+</html>
