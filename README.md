@@ -11,9 +11,9 @@ It is a B2B e-Commerce website launched to trasnform the way trade is done in In
 * All the bugs and features in version 1.0 is fixed.
 * Location can be directly added to the account so that delivery will be easy.
 * Language options will be added.
-* Light/Dark theme option will be added/
+* Light/Dark theme option will be added
 ## Authors
-* Keerthan K Acharya - Front End, Content Strategist, Product Design and Implementation. [Github](github.com/keerthankacharya)
+* Keerthan K Acharya - Front End, Content Strategist, Logo Design, Product Design and Implementation. [Github](github.com/keerthankacharya)
 * Rakesh Jayanna - Back End (Xampp, mySQL). [Github](github.com/rakeshjayanna)
 * Preetham G Shiva - Back End. [Github](github.com/preethamgshiva)
 * Vikas J Gowda - Analysis, Communication, Time Management, Designed Login and Logout Pages. [Github](github.com/vikasjgowda)
